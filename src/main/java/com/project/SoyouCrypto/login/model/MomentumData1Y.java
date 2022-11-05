@@ -49,6 +49,9 @@ public class MomentumData1Y {
     @Column(nullable = true)
     private double DD;
 
+    @Column(nullable = true)
+    private double anotherItem;
+
 
     public void updateTodayData(double cum_return_ma, double cum_return_btc, double daily_return_ma, double ATH, double DD) {
         this.cum_return_ma = cum_return_ma;

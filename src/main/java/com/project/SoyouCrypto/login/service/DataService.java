@@ -196,7 +196,7 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
@@ -256,7 +256,7 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
@@ -315,7 +315,7 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
@@ -375,7 +375,7 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
@@ -489,7 +489,8 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+//            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
@@ -544,7 +545,7 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
@@ -599,7 +600,7 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
@@ -654,7 +655,7 @@ public class DataService {
             }
 
             // mdd 구하기 위한 비교
-            double today_DD = (((today_cum_return_ma + 1) / (ATHComps + 1)) - 1);
+            double today_DD = (today_cum_return_ma - ATHComps);
             if (mdd >= today_DD) {
                 mdd = today_DD;
             }
